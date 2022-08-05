@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-crispy-forms = "*"
+django-rest-knox = "*"
+django-filter = "*"
+markdown = "*"
+pygments = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
